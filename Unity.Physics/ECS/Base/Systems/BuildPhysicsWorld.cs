@@ -300,7 +300,7 @@ namespace Unity.Physics.Systems
 
     #region Analytics
 
-#if UNITY_EDITOR && ENABLE_CLOUD_SERVICES_ANALYTICS
+#if false  // && UNITY_EDITOR && ENABLE_CLOUD_SERVICES_ANALYTICS
     internal struct PhysicsAnalyticsSingleton : IComponentData
     {
         public SimulationType m_SimulationType;

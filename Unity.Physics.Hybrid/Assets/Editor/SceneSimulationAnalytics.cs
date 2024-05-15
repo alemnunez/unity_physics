@@ -1,5 +1,5 @@
 #if UNITY_EDITOR
-#if ENABLE_CLOUD_SERVICES_ANALYTICS
+#if false && ENABLE_CLOUD_SERVICES_ANALYTICS
 using System;
 using Unity.Entities;
 using Unity.Physics.Systems;
